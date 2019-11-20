@@ -1,0 +1,491 @@
+/* CSS Document */ 
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto|Varela+Round');
+/*to Remove the webkit padding */
+.grid{
+	
+	padding:5px;
+	border-radius:6px;
+	border:1px solid #8FC2FF;
+	width:80%;
+}
+
+#listTweets{
+	margin:0px;
+	text-align: center;
+	width:100%;
+}
+
+.fullDetails{
+	width:280px;
+	display:none;
+	position:absolute;
+	z-index:1;
+	background:rgba(0,0,0,0.8);
+	color:#fff;
+	padding:10px;
+	margin-right:10px;
+	border-radius:8px;
+}
+.previewText{
+	display:none;	
+}
+ 
+body{
+	font-size:20px;
+	margin:0;
+	background: url("../Images/background3.jpg");
+	color:#ffffff;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+
+}
+.buyticketsin {
+	
+	width:90%;
+    overflow: hidden;
+    padding-right: 5%;
+    padding-left: 5%;
+    
+}
+.buyticketsin img{
+	width:100%;
+	height: 300px;
+}
+
+#myMap {
+    width: 100%;
+    height: 360px;
+	box-shadow: 4px 4px 4px #333333;}
+
+
+legend{
+	color:#ffffff;
+}
+header{	
+	height: auto;
+	border-radius:16px;	
+	background-color: #26111A;
+
+	
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color:#fff;	
+
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+}
+	
+#logo{
+	padding-left:5%;	
+
+}
+
+input{
+	color: #000000;
+}
+select{
+	color: #000000;
+}
+textarea{
+	color: #000000;
+}
+#title2 h2:first{
+	border: hidden;
+}
+
+#title2 h2{
+	 border-top: 1px solid #DEDEDE;
+margin:0px;
+	padding-top:2%;
+	
+text-align:center;
+	
+}
+
+.gm-style-iw{
+	color:black;
+}
+#welcomeBanner p{
+	color: black;
+	background-color: blanchedalmond;
+	padding:0;
+	margin:0;
+}
+#welcomeBanner img{
+	vertical-align:middle;
+	padding-left:1%;
+	cursor:pointer;
+}
+
+/* login */
+
+#loginForm{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	display:inline;
+	
+}
+#loginForm input[type='text'], #login input[type='password']{
+	width:auto;
+	display:inline;
+}
+
+
+/* Form styles*/
+.Genderinput{
+	
+	width: 15%;
+    padding-right: 10%;
+    display: inline;
+    border-bottom: #CCC 1px dotted;
+    margin-bottom: 1%;
+}
+
+#Contact-us label{
+	width:40%;
+	
+
+display:inline-block;
+border-bottom:#CCC 1px dotted;
+	margin-bottom:1%;
+
+}
+#Contact-us p .inline {
+	display:inline;
+	
+}
+#Contact-us legend{
+	
+		font-size:30px;
+
+}
+#Contact-us input {
+	width:auto;
+	display:inline-block;
+	
+}
+#Contact-us{
+	padding-right:5%;
+	padding-left:5%;
+	width:auto;
+}
+
+.sendmail{
+	padding-left:5%;
+}
+
+
+
+span.label{
+	padding-right:2%;
+	border-bottom:#CCC 1px dotted;
+	
+}
+/*buttons*/
+	
+.sendButton:hover {
+	background-color:#0688fa;
+	cursor:pointer;		
+}
+
+.sendButton{
+    border-radius: 8px;
+    border: 3px solid #000000;
+    cursor: pointer;
+    color: #ffffff;
+ 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 10px;
+    text-shadow: rgb(38, 54, 102) -4px 0px 4px;
+}
+
+
+/* search form*/
+
+
+#formsearch {
+font-family: 'Roboto', sans-serif;
+	font-size:40px;
+	padding-left:5%;
+	
+		
+}
+#EventSearch{
+	color:#000000;
+	font-size:40px;
+	width: 40%;
+	
+	
+}
+.search-header{
+	font-size:30px;
+	padding-left:5%;
+		padding-right:5%;
+}
+.howmany{
+	font-family: 'Roboto', sans-serif;
+	font-size:40px;
+	border-top: 1px solid #DEDEDE;
+	padding-left:5%;
+		padding-right:5%;
+	border-bottom: 1px solid #DEDEDE;
+}
+.genreoutcomes {
+	text-align: center;
+    border-bottom: 1px solid #DEDEDE;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.venueoutcomes {
+	text-align: center;
+	
+	border-top: 1px solid #DEDEDE;
+}
+.outcomes {
+	    border-bottom: 1px solid #DEDEDE;
+	
+	padding-right:5%;
+	padding-left:5%;
+	
+}
+.outcomes h2{
+	font-family: 'Poppins', sans-serif;
+	font-size:60px;
+	margin:0px;
+	text-transform: uppercase;	
+	display:inline;	
+}
+.searchtitles{
+	    font-size: 40px;
+	padding-right:5%;
+	
+	
+}
+.Datesoccuring{
+	font-family: 'Poppins', sans-serif;
+	font-size:40px;
+	margin:auto;
+	
+		padding-right:5%;
+}
+.timeuntil{
+	font-family: 'Poppins', sans-serif;
+	font-size:30px;
+	margin:auto;
+	
+	padding-bottom:2%;
+	padding-right:5%;
+	
+}
+
+.eventpics{
+
+	display:inline;
+}
+	.eventpics img{
+    width:45%; 
+    height: 400px;
+	
+	padding-bottom:2%;
+		
+}
+
+.venueventpics img{
+	
+	width:60%; 
+    height: 500px;
+	
+	padding-bottom:2%;
+	
+}
+
+.eventdetails {
+	font-family: 'Poppins', sans-serif;
+	font-size:20px;
+	width:45%;
+	height: 375px;
+	float:right;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:3%;
+	background:  url("../Images/background6.jpg");
+	
+	background-attachment:fixed;
+		
+}
+.eventdetails p{
+	font-size:20px; 
+	position: relative;
+top: 50%;
+transform: translateY(-50%);
+	margin:0px;
+}
+/* top menu */
+.topMenu {
+font-family: 'Poppins', sans-serif;
+	list-style: none;
+	font-size:23px;
+	padding-left:2%;
+    overflow: hidden;
+	
+
+
+}
+.topMenu .first {
+	padding-left:3%;
+}
+
+.topMenu li {
+	float:left;
+	 padding-left:2%
+}
+
+.topMenu a{
+text-decoration: none;
+	color:#ffffff;
+
+}
+.topMenu a:hover{
+text-decoration: underline;
+
+}
+
+/* viewing button */
+.buttonview{
+	 
+	padding-bottom:2%;
+}
+.viewinginfo:hover {
+	background-color:#0688fa;
+	cursor:pointer;		
+}
+
+.viewinginfo{
+	
+ border-radius: 8px;
+    border: 3px solid #000000;
+    cursor: pointer;
+    color: #ffffff;
+	background-color: aqua;
+    font-weight: bold;
+    padding: 8px 10px;
+    text-shadow: rgb(38, 54, 102) -4px 0px 4px;
+}
+/* CONTENT */
+/* SIDEBAR 1 */
+
+.sidebarleft {
+	padding-left:5%;
+	padding-right:5%;
+	text-align: center;
+
+	margin:0px;
+}
+.sidebarleft img {
+	
+	width:70%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:2%;
+	height:500px;
+}
+
+
+/* side bar 1 */
+
+.sideBarMenu1{
+	padding-left:5%;
+	padding-right:5%;
+	font-family: 'Varela Round', sans-serif;
+	list-style: none;
+	border-bottom:3px solid #DEDEDE;
+	border-top: 3px solid #DEDEDE;
+	border-left: 3px solid #DEDEDE;
+	border-right:3px solid #DEDEDE;
+	margin:0px;
+	display:none;
+
+}
+
+.sideBarMenu1 li {
+	padding-bottom:5%;
+	text-align:center;
+}
+
+.sideBarMenu1 a {
+	text-decoration: none;
+	color: #545454;
+}
+
+.sideBarMenu1 a:hover {
+	text-decoration: underline;
+}
+
+.sideBarMenu1 .first {
+	border-top: none;
+}
+
+.sideBarinfo {
+	
+	width:50%;
+	border-right: 2px dashed #ffffff;
+	margin-bottom: auto;
+	padding-left:0px;
+	padding-right:5%;
+	float:left;
+}
+.buytickets{
+	display: block;
+	width:45%;
+	font-size:40px;
+	margin-bottom: auto;
+	padding-left:0px;
+	
+	float: right;
+	position: relative;
+margin-top: 20px;
+
+}
+
+.sideBarinfo li {
+	color: #ffffff;
+	list-style: none;
+	text-decoration: none;
+
+}
+.sidebartickets img {
+	
+	width:100%;
+	
+}
+.sidebartickets{
+	overflow:hidden;
+	padding-right: 10%;
+    padding-left: 10%;
+	
+	border-bottom:2px solid #ffffff;
+}
+
+/* Footer */
+
+footer {
+	clear:left;
+	overflow: hidden;
+	padding: 1% 0%;
+	border-top: 1px solid #DEDEDE;
+}
+
+footer p {
+	text-align: center;
+	color:#ffffff;
+}

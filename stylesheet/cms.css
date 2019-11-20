@@ -1,0 +1,149 @@
+
+
+.cmstitle {
+	font-size:30px;
+	padding-bottom:2%;
+	padding-left:5%;
+	padding-top:2%; 
+	border-top:solid ;
+}
+
+
+input:not([type="file"]) {
+	font-size:20px;
+
+}
+.cmsrow{
+	font-size:30px;
+}
+
+
+.maintitlecms{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+body{
+	font-family:helvetica, arial, sans-serif;	
+}
+
+header p a{
+	text-decoration:none;	
+	color:#999;
+}
+header p a:hover{
+	text-decoration:underline;	
+	color:#66CC33;
+}
+
+.table-striped{
+	margin-bottom: 2%;
+	border-collapse:collapse;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+table tr:first-child th{
+	padding:2% 2% 2% 1%;	
+	text-align:left;
+	border-bottom:1px solid #999;
+	background-color:#000;
+	font-size:40px;
+}
+
+table td{
+	margin:0;
+	padding:1%;	
+}
+
+
+tr:nth-of-type(odd){
+    background-color:#C5C5C5;
+}
+
+
+
+.indent label, span.indent{
+	display:block;
+	width:150px;
+	float:left;
+}
+.indent input:focus{
+	background-color:#CFC;
+}
+input:not([type="submit"]) {
+	font-size:20px;
+
+}
+
+.wholedelete{
+	padding-left: 5%;
+}
+
+
+
+.YESButton:hover {
+	background-color:#35090F;
+	cursor:pointer;		
+}
+
+.YESButton{
+    border-radius: 8px;
+    border: 3px solid #000000;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 10px;
+    text-shadow: rgb(38, 54, 102) -4px 0px 4px;
+	background-color:#F69;
+	font-size:25px;
+	width:150px;
+}
+td:nth-of-type(odd) {
+	
+	color:#684D94;
+}
+
+.NOButton:hover {
+	background-color:#1DAB1C;
+	cursor:pointer;		
+}
+
+.NOButton{
+    border-radius: 8px;
+    border: 3px solid #000000;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 10px;
+    text-shadow: rgb(38, 54, 102) -4px 0px 4px;
+	background-color:#CFC;	
+	font-size:25px;
+	width:150px;
+}
+
+input[type="submit"]{
+	
+	text-align: center;
+	font-size:20px;
+}
+textarea {
+	font-size:30px;
+	width:90%;
+}
+.editcms{
+	padding-left:5%;
+	width:90%;
+	
+}
+.EditFields{
+	font-size:30px;
+	
+	
+}
+.EditFields label {
+	display:block;
+	
+}
+
